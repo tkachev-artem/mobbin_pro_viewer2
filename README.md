@@ -11,8 +11,8 @@ To run the Mobbin Pro Viewer script, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Go to your chromium browser(such as Chrome, Edge or Opera)'s extension page
-3. Enable developer mode & click load upacked.
-4. Then select the cloned repository folder. That's it. 
+3. Enable developer mode & click load unpacked.
+4. Then select the cloned repository folder. That's it. Extension should be installed and activated. 
 
 ## Usage Guidelines
 
