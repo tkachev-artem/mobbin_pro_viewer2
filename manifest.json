@@ -1,0 +1,29 @@
+{
+    "name": "Mobbin Pro Viewer",
+    "version": "1.0",
+    "description": "",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "options_page": "options.html",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://*.mobbin.com/*"],
+          "js": ["content-script.js"]
+        }
+      ],
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "manifest_version": 3
+}
