@@ -23,9 +23,6 @@ This script is provided for educational purposes only and should not be used to 
 The Mobbin Pro Viewer script is provided "as is" and without warranty. The author is not liable for any misuse or legal consequences resulting from the use of the script.
 
 ## Contributions
-
-
-## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
