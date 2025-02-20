@@ -48,6 +48,6 @@ function main() {
         execInjection(elems, param)
     }
 
-    let pattern = /^https:\/\/bytescale\.mobbin\.com\S+\/image\/content\/app_screens\/\S{8}-\S{4}-\S{4}-\S{4}-\S{12}\.\S{3,4}\?f=\S{3,4}\&w=\d{2,4}\&q=\d{2,3}&fit=shrink-cover&extend-bottom=120&image=([^&]+)\&gravity=bottom$/
+    let pattern = /^https:\/\/bytescale\.mobbin\.com\/\w+\/image\/content\/app_screens\/\S{8}-\S{4}-\S{4}-\S{4}-\S{12}\.\S{3,4}\?f=\S{3,4}\&w=\d{1,4}\&q=\d{2,3}&fit=shrink-cover&extend-bottom=120&image=([^&]+).*$/
     queryAndPro(pattern);
 }
